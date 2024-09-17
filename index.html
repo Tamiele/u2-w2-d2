@@ -15,7 +15,7 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <img src="./img/logo-eveliner.png" alt="" />
           <button
             class="navbar-toggler"
             type="button"
@@ -61,7 +61,7 @@
       </nav>
     </header>
     <main>
-      <div class="container bg-body-tertiary mt-5 p-5 rounded-2">
+      <div class="container bg-body-tertiary mt-5 p-5 rounded-2 shadow">
         <div class="row text-center text-lg-start">
           <div class="col-12 border-bottom 3 text-secondary">
             <h1>
@@ -90,193 +90,209 @@
         </div>
       </div>
       <section>
-        <div class="container mt-5">
+        <div id="saldi" class="container mt-5">
           <div class="row mb-2 justify-content-between text-secondary">
             <div class="col-3"><h2>Saldi</h2></div>
-            <div class="col-3 text-info"><p>Nascondi sezione</p></div>
+            <div class="col-3 text-info">
+              <p
+                data-bs-toggle="collapse"
+                data-bs-target="#cardSection1"
+                style="cursor: pointer"
+              >
+                Nascondi sezione
+              </p>
+            </div>
           </div>
-          <div class="row g-4 row-cols-2 row-cols-md-3 row-cols-lg-4">
-            <div class="col">
-              <div class="card border-2 border-info">
-                <img
-                  src="https://cdn.pixabay.com/photo/2015/03/09/18/34/beach-666122_640.jpg"
-                  class="card-img-top"
-                  alt="maldive"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Maldive</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-info text-dark">Prenota</a>
+          <div id="cardSection1" class="collapse show">
+            <div class="row g-4 row-cols-2 row-cols-md-3 row-cols-lg-4">
+              <div class="col">
+                <div class="card border-2 border-info">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2015/03/09/18/34/beach-666122_640.jpg"
+                    class="card-img-top"
+                    alt="maldive"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Maldive</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card border-2 border-info">
-                <img
-                  src="https://img.freepik.com/free-photo/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-sunset-japan_335224-215.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726444800&semt=ais_hybrid"
-                  class="card-img-top"
-                  alt="Giappone"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Giappone</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-info text-dark">Prenota</a>
+              <div class="col">
+                <div class="card border-2 border-info">
+                  <img
+                    src="https://img.freepik.com/free-photo/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-sunset-japan_335224-215.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726444800&semt=ais_hybrid"
+                    class="card-img-top"
+                    alt="Giappone"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Giappone</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card border-2 border-info">
-                <img
-                  src="https://media.istockphoto.com/id/1146931869/it/foto/la-sfinge-di-giza-vicino-alle-piramidi-nel-deserto-egitto.jpg?s=612x612&w=0&k=20&c=_c31dx4Avx0_6zFMV88A8uhI5ocybXZvqNeMOngOJOY="
-                  class="card-img-top"
-                  alt="egitto"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Egitto</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-info text-dark">Prenota</a>
+              <div class="col">
+                <div class="card border-2 border-info">
+                  <img
+                    src="https://media.istockphoto.com/id/1146931869/it/foto/la-sfinge-di-giza-vicino-alle-piramidi-nel-deserto-egitto.jpg?s=612x612&w=0&k=20&c=_c31dx4Avx0_6zFMV88A8uhI5ocybXZvqNeMOngOJOY="
+                    class="card-img-top"
+                    alt="egitto"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Egitto</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card border-2 border-info">
-                <img
-                  src="https://media.istockphoto.com/id/1345426734/it/foto/torre-eiffel-parigi-fiume-senna-tramonto-twilight-francia.jpg?s=612x612&w=0&k=20&c=UmWcv6Mg1b4FdL90IcP4ObfA4SkB-E468xuRyWQg8tE="
-                  class="card-img-top"
-                  alt="parigi"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Parigi</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-info text-dark">Prenota</a>
+              <div class="col">
+                <div class="card border-2 border-info">
+                  <img
+                    src="https://media.istockphoto.com/id/1345426734/it/foto/torre-eiffel-parigi-fiume-senna-tramonto-twilight-francia.jpg?s=612x612&w=0&k=20&c=UmWcv6Mg1b4FdL90IcP4ObfA4SkB-E468xuRyWQg8tE="
+                    class="card-img-top"
+                    alt="parigi"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Parigi</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <section>
-        <div class="container">
-          <div class="row"></div>
-        </div>
-      </section>
-      <section>
-        <div class="container mt-5">
+        <div id="welcomeSummer" class="container mt-5">
           <div class="row mb-2 justify-content-between text-secondary">
             <div class="col-3"><h2>Welcome Summer</h2></div>
-            <div class="col-3 text-info"><p>Nascondi sezione</p></div>
-            <div class="row g-4 row-cols-2 row-cols-lg-3">
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+            <div class="col-3 text-info">
+              <p
+                data-bs-toggle="collapse"
+                data-bs-target="#cardSection2"
+                style="cursor: pointer"
+              >
+                Nascondi sezione
+              </p>
+            </div>
+            <div id="cardSection2" class="collapse show">
+              <div class="row g-4 row-cols-2 row-cols-lg-3">
+                <div class="col">
+                  <div class="card shadow">
+                    <img
+                      src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-info text-dark">Prenota</a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                <div class="col">
+                  <div class="card shadow">
+                    <img
+                      src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-info text-dark">Prenota</a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                <div class="col">
+                  <div class="card shadow">
+                    <img
+                      src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-info text-dark">Prenota</a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                <div class="col">
+                  <div class="card shadow">
+                    <img
+                      src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-info text-dark">Prenota</a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                <div class="col">
+                  <div class="card shadow">
+                    <img
+                      src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-info text-dark">Prenota</a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                <div class="col">
+                  <div class="card shadow">
+                    <img
+                      src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="btn btn-info text-dark">Prenota</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -292,7 +308,7 @@
           <div class="row">
             <div class="col-8">
               <img
-                class="card-img rounded-2"
+                class="card-img rounded-2 shadow"
                 src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
                 alt=""
               />
@@ -317,12 +333,230 @@
           </div>
         </div>
       </section>
+
+      <section>
+        <div class="container mt-5">
+          <div class="row mb-2 text-secondary">
+            <div class="col"><h2>Last Minute</h2></div>
+            <div class="row g-3 row-cols-2 row-cols-m-3 row-cols-lg-6">
+              <div class="col">
+                <img
+                  class="card-img rounded-2 shadow"
+                  src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="col">
+                <img
+                  class="card-img rounded-2 shadow"
+                  src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="col">
+                <img
+                  class="card-img rounded-2 shadow"
+                  src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="col">
+                <img
+                  class="card-img rounded-2 shadow"
+                  src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="col">
+                <img
+                  class="card-img rounded-2 shadow"
+                  src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="col">
+                <img
+                  class="card-img rounded-2 shadow"
+                  src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <aside>
+        <div class="container mt-5">
+          <div class="row mb-2 text-secondary text-center">
+            <div class="col"><h2>Dicono di noi</h2></div>
+          </div>
+          <div class="row">
+            <div class="col-2 text-end">
+              <img
+                class="w-100"
+                src="https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-No-Background.png"
+                alt=""
+              />
+            </div>
+            <div class="col-10">
+              <div class="row">
+                <div class="col-12 text-secondary"><h3>Marco</h3></div>
+                <div class="col-12">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis animi suscipit, aliquid corrupti quo quaerat itaque
+                    adipisci beatae obcaecati. Ullam, harum assumenda? Officia
+                    nisi, asperiores minus debitis ratione culpa porro.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2 text-end">
+              <img
+                class="w-100"
+                src="https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-No-Background.png"
+                alt=""
+              />
+            </div>
+            <div class="col-10">
+              <div class="row">
+                <div class="col-12 text-secondary"><h3>Michele</h3></div>
+                <div class="col-12">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis animi suscipit, aliquid corrupti quo quaerat itaque
+                    adipisci beatae obcaecati. Ullam, harum assumenda? Officia
+                    nisi, asperiores minus debitis ratione culpa porro.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2 text-end">
+              <img
+                class="w-100"
+                src="https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-No-Background.png"
+                alt=""
+              />
+            </div>
+            <div class="col-10">
+              <div class="row">
+                <div class="col-12 text-secondary"><h3>Adriano</h3></div>
+                <div class="col-12">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis animi suscipit, aliquid corrupti quo quaerat itaque
+                    adipisci beatae obcaecati. Ullam, harum assumenda? Officia
+                    nisi, asperiores minus debitis ratione culpa porro.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
     </main>
+
+    <footer class="card-footer p-5 bg-dark">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <div class="container mt-5">
+              <!-- Bottone per aprire il modale -->
+              <button
+                type="button"
+                class="btn btn btn-outline-secondary"
+                data-bs-toggle="modal"
+                data-bs-target="#emailModal"
+              >
+                Contattaci
+              </button>
+            </div>
+
+            <!-- Modale -->
+            <div
+              class="modal fade"
+              id="emailModal"
+              tabindex="-1"
+              aria-labelledby="emailModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="emailModalLabel">
+                      Invia un messaggio
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <!-- Campo Email -->
+                      <div class="mb-3">
+                        <label for="emailInput" class="form-label"
+                          >Indirizzo Email</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="emailInput"
+                          placeholder="nome@esempio.com"
+                          required
+                        />
+                      </div>
+                      <!-- Campo Messaggio -->
+                      <div class="mb-3">
+                        <label for="messageInput" class="form-label"
+                          >Messaggio</label
+                        >
+                        <textarea
+                          class="form-control"
+                          id="messageInput"
+                          rows="3"
+                          placeholder="Scrivi il tuo messaggio qui..."
+                          required
+                        ></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Chiudi
+                    </button>
+                    <button type="button" class="btn btn-success">
+                      Invia Messaggio
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mt-lg-3">
+            <p class="text-light">
+              2024 Kalina Travel LTD, All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
