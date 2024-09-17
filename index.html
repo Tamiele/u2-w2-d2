@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Saldi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Welcome Summer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Last Minute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recensioni</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Cerca posti da sogno"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container bg-body-tertiary mt-5 p-5 rounded-2">
+        <div class="row text-center text-lg-start">
+          <div class="col-12 border-bottom 3 text-secondary">
+            <h1>
+              Eveline-R
+              <span class="fs-4">- Feel the Freedom</span>
+            </h1>
+          </div>
+          <div class="col-12">
+            <p class="fst-italic text-secondary mt-2">
+              Scopri le destinazioni più calde del momento
+            </p>
+          </div>
+          <div class="col-12">
+            <button
+              class="btn btn-info text-light fw-bold fs-4"
+              type="button"
+              style="
+                --bs-btn-padding-y: 0.25rem;
+                --bs-btn-padding-x: 0.5rem;
+                --bs-btn-font-size: 0.75rem;
+              "
+            >
+              Prenota ora
+            </button>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="container mt-5">
+          <div class="row mb-2 justify-content-between">
+            <div class="col-3"><h2>Saldi</h2></div>
+            <div class="col-3 text-info"><p>Nascondi sezione</p></div>
+          </div>
+          <div class="row g-4 row-cols-2 row-cols-md-3 row-cols-lg-4">
+            <div class="col">
+              <div class="card border-2 border-info">
+                <img
+                  src="https://cdn.pixabay.com/photo/2015/03/09/18/34/beach-666122_640.jpg"
+                  class="card-img-top"
+                  alt="maldive"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Maldive</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-info text-dark">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-2 border-info">
+                <img
+                  src="https://img.freepik.com/free-photo/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-sunset-japan_335224-215.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726444800&semt=ais_hybrid"
+                  class="card-img-top"
+                  alt="Giappone"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Giappone</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-info text-dark">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-2 border-info">
+                <img
+                  src="https://media.istockphoto.com/id/1146931869/it/foto/la-sfinge-di-giza-vicino-alle-piramidi-nel-deserto-egitto.jpg?s=612x612&w=0&k=20&c=_c31dx4Avx0_6zFMV88A8uhI5ocybXZvqNeMOngOJOY="
+                  class="card-img-top"
+                  alt="egitto"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Egitto</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-info text-dark">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-2 border-info">
+                <img
+                  src="https://media.istockphoto.com/id/1345426734/it/foto/torre-eiffel-parigi-fiume-senna-tramonto-twilight-francia.jpg?s=612x612&w=0&k=20&c=UmWcv6Mg1b4FdL90IcP4ObfA4SkB-E468xuRyWQg8tE="
+                  class="card-img-top"
+                  alt="parigi"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Parigi</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-info text-dark">Prenota</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row"></div>
+        </div>
+      </section>
+      <section>
+        <div class="container mt-5">
+          <div class="row mb-2 justify-content-between">
+            <div class="col-3"><h2>Welcome Summer</h2></div>
+            <div class="col-3 text-info"><p>Nascondi sezione</p></div>
+            <div class="row g-4 row-cols-2 row-cols-lg-3">
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-info text-dark">Prenota</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container mt-5">
+          <div class="row mb-2 justify-content-between">
+            <div class="col-3"><h2>Offerte del giorno</h2></div>
+            <div class="col-3 text-info"><p>Nascondi sezione</p></div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              <img
+                class="card-img rounded-2"
+                src="https://images.pexels.com/photos/358383/pexels-photo-358383.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="col-4">
+              <div class="row text-secondary">
+                <div class="col">
+                  <h2>Australia</h2>
+                </div>
+
+                <div class="col"></div>
+                <div class="col"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
